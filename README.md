@@ -100,7 +100,7 @@ An array that of the sources that you want the posts from. Add multiple objects 
     }
 }
 ```
-# Installation
+# Deployment
 ## With Docker
 - ``docker-compose up -d`` to create and start the container
 - ???? profit
