@@ -11,7 +11,7 @@ The bot schedules a task (with a [cron expression](https://www.wikiwand.com/en/C
 - Create a public Telegram channel or private one and [get the private id](https://stackoverflow.com/a/39943226)
 
 
-The fill the configuration file:
+Then fill the configuration file:
 ## Configuration file
 config.json escructure:
 ```jsx
@@ -100,10 +100,10 @@ An array that of the sources that you want the posts from. Add multiple objects 
     }
 }
 ```
-# Installation
+# Deployment
 ## With Docker
 - ``docker-compose up -d`` to create and start the container
 - ???? profit
 ## Without Docker
 - Install the depencies with ``pip3 install -r requirements.txt``
-- ```python app.py`` to execute the script
+- ``python app.py`` to execute the script
