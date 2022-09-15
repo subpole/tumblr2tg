@@ -106,4 +106,4 @@ An array that of the sources that you want the posts from. Add multiple objects 
 - ???? profit
 ## Without Docker
 - Install the depencies with ``pip3 install -r requirements.txt``
-- ```python app.py`` to execute the script
+- ``python app.py`` to execute the script
