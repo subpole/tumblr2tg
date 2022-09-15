@@ -1,0 +1,9 @@
+version: "2.2"
+services:
+  tumbrl2tg:
+    build: .
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Madrid
+    volumes:
+      - .:/usr/src/app

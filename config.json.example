@@ -1,0 +1,22 @@
+{
+    "telegram": {
+        "botToken": ""
+    },
+    "tumblr": {
+        "apiToken": ""
+    },
+    "config": {
+        "channels": {
+            "channel_tag123": {
+                "cron": "* * * * *",
+                "tumblr_sources": [
+                    {   
+                        "type": "tag",
+                        "name": "umineko"
+                    }
+                ]
+            }
+        },
+        "admin" : "your_tag123"
+    }
+}
